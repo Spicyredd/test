@@ -1,0 +1,27 @@
+@media screen and (max-width: 900px) {
+    .main-div{
+        margin-top:100px;
+    }
+    h1{
+        font-weight: 500;
+    }
+    h2,.text-context, .this{
+        font-weight: 300;
+    }
+    .img-5{
+        background-image: url('telephoto-returns-1.png');
+        overflow: visible;
+        width: 90svw;
+        background-position: center;
+        background-size: contain;
+    }
+    .image h2{
+        font-family: 'Roboto-serif';
+    }
+    .img-3{
+        background-image: url('The-coordinator.png');
+    }
+    .img-3 h2{
+        color: black;
+    }
+}

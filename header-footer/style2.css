@@ -1,0 +1,156 @@
+@media screen and (max-width: 900px) {
+    *,body{
+        overflow-y: visible;
+    }
+
+    .flex-wrap{
+        flex-direction: column;
+    }
+    .menu{
+        display: block;
+    }
+    .cross{
+        display: none;
+    }
+    nav{
+        height: 100vh;
+        max-width: 300px;
+        width: 40svw;
+        min-width:250px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: fixed;
+        right: 0;
+        top: 0;
+        padding-top:10em;
+        transform: translate(100%, 0%);
+        transition: transform 0.2s ease-in; 
+        z-index: 1;
+    }
+
+    #nav-logo{
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+
+    .nav-links{
+        width: 165px;
+        gap:4em;
+        margin-left: 2em;
+        font-family: 'Roboto-serif';
+        font-size: 20px;
+    }
+    
+    #checkbox:checked ~ .hamburger{
+        display: none;
+    }
+
+    #checkbox:checked ~ nav{
+        transform:translate(0%, 0%);
+    }
+    
+    #checkbox:checked ~ .cross{
+        display: block;
+    }
+
+    .home{
+        display: block;
+    }
+
+    footer{
+        position: relative;
+    }
+    #footer{
+        flex-direction: column;
+        align-items: center;
+        gap:1em;
+    }
+
+    .break{
+        width: 230px;
+        height: 230px;
+    }
+    .break2{
+        width: 230px;
+    }
+    #line-2{
+        width: 80svw;
+        border-top: 1px solid white;
+    }
+    .text-1{
+        height: 160px;
+        overflow: visible;
+    }
+    
+    .text-1 h3{
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    #det li{
+        font-weight: 100;
+        margin: 0.08em 0;
+    }
+
+
+    .order{
+        order: 2;
+        height: 120px;
+        overflow: visible;
+    }
+
+    .linee{
+        order: 1;
+    }
+    .final{
+        gap:0.5em;
+        margin-top: 0.5em;
+
+    }
+    #line-2{
+        height: 0px;
+    }
+    .footer{
+        overflow: hidden;
+    }
+    .shown{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+    #shown{
+        display: none;
+    }
+    #hidden{
+        display: block;
+    }
+}
+
+@media screen and (max-width:720px){
+    .footer{
+        flex-direction: column;
+        gap: 1em;
+        width: 80svw;
+    }
+    .line{
+        height: 0;
+    }
+    #line-2{
+        display: none;
+    }
+    #line-3{
+        display: block;
+    }
+    .line{
+        width: 40svw;
+        border-top: 1px solid white;
+        align-self: flex-start;
+    }
+    #social-img{
+        height: 70px;
+        overflow: visible;
+    }
+    
+}

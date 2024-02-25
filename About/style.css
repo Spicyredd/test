@@ -1,0 +1,108 @@
+*,body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+.main-div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+h1
+{
+    font-size: 40px;
+}
+h2
+{
+    font-weight: 400;
+    font-size: 24px;
+}
+.text-box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 90%;
+}
+.three-img
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.image
+{
+    background-image: url('candid.jpg');
+    width: 288px;
+    height: 362px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.image h2
+{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 270px;
+    font-size: 24px;
+}
+
+.img-1
+{
+    background-image: url('The-Creator.png');
+}
+.img-2
+{
+    background-image: url('camera-photo-1.png');
+}
+.img-3
+{
+    background-image: url('camera-photo-1.png');
+}
+.image2
+{
+    width: 288px;
+    height: 286px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.img-4
+{
+    background-image: url('camera-photo-1.png');
+}
+.img-5
+{
+    background-image: url('telephoto-returns-11.png');
+    width: 655px;
+}
+.img-6
+{
+    background-image: url("camera-telephoto-2.png");
+}
+.btm
+{
+    justify-content: center;
+    gap:2em;
+}

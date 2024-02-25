@@ -1,0 +1,144 @@
+*,body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+nav {
+    background-color: #A8A8A8;
+}
+body {
+    overflow-x: hidden;
+    background-color: #A8A8A8;
+}
+
+.main-top{
+    display: inline-block;
+    max-width: 160ch;
+    margin-left: 10svw;
+    margin-right: 10svw;
+    font-family: 'Montserrat';
+}
+
+.top{
+    color: white;
+    font-weight: 400;
+    width: 9ch;
+    align-self: flex-start;
+    font-size: 40px;
+}
+.p
+{
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 1em;
+    display : block; overflow-wrap: break-word; max-width : 100%;
+}
+.info
+{   
+    margin: 0 auto;
+    background-color: white;
+    width: 80svw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 6em;
+    margin-top: 2.5em;
+    align-self: center;
+    font-size: 1.6em;
+    font-family: 'Montserrat';
+} 
+.info h2
+{
+    color: black;
+    align-self: flex-start;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.text-box
+{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 35svw;
+    color: black;
+    padding: 0.5em 0;
+    font-size: 24px;
+    margin-top: 1.4em;
+    font-weight: 400;
+}
+
+.latter
+{
+    margin-top: 2em;
+}
+
+.submit
+{
+    margin-top: 2em;
+    border: none;
+    font-size: 32px;
+    padding: 0.2em 2em;
+    background-color: #9747FF;
+    font-weight: 400;
+    height: 50px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    width: 300px;
+    font-family: 'Montserrat';
+    overflow: visible;
+}
+
+.submit:hover
+{
+    background-color: #6AAED6;
+    color: white;
+}
+
+#line 
+{
+    width: 70svw;
+    border: 2px solid #9747FF;
+    margin: 30px auto;
+}
+
+#explore
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6em;     
+    font-weight: bolder;
+    align-self: center;
+    text-align: center;
+}
+
+#view
+{
+    display: block;
+    font-size: 3em;
+    align-self: center;
+    text-decoration: none;
+    margin: 1em 3em;
+    padding:0.5em 2em;
+    background-color: #9747FF;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: 1em;
+    font-family: 'Montserrat';
+}
+
+#view:hover
+{
+    color: white;
+    background-color: #6AAED6;
+}

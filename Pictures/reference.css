@@ -1,0 +1,56 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    width: 80svw;
+    display: block;
+    margin: 100px 0;
+}
+h1{
+    margin-top: 50px;
+    font-size: 64px;
+}
+.first img{
+    max-height: 45px;
+    max-width: 45px;
+    gap: 1em;
+    max-width: 300px;
+    
+}
+nav a{
+    color: white;
+}
+.third img{
+    max-height: 150px;
+    min-width: 150px;
+}
+.fifth img, .second img{
+    max-height: 150px;
+    max-width: 300px;
+    min-width: 150px;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+.border{
+    border: 1px solid white;
+    padding: 1em;
+    display:flex;
+    flex-wrap: wrap;
+}
+.fourth img{
+    max-width: 400px;
+}

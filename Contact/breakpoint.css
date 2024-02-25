@@ -1,0 +1,40 @@
+@media screen and (max-width:900px){
+    .sub-div,.sub-div2{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .top{
+        margin-top: 58px;
+    }
+    .sub-div2 h2{
+        font-size: 20px;
+    }
+
+    .line-1{
+        display: none;
+    }
+    .contact h1{
+        font-size: 40px;
+    }
+    .contact p{
+        font-size: 24px;
+    }
+    td,th{
+        width: 400px;
+        gap: 0.8em;
+    }
+    #review{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 80svw;
+        gap:2em;
+        padding-left: 20px;
+    }
+    .normal{
+        width: 90%;
+    }
+    .main-div{
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+}

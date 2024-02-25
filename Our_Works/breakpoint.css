@@ -1,0 +1,32 @@
+@media screen and (max-width:900px){
+    .shown{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+    .img-row{
+        gap: 2em;
+        justify-content: space-around;
+        width: 100svw;
+    }
+    .flex{
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+    }
+    .middle-one{
+        max-width: 360px;
+    }
+    #hire{
+        font-size: 40px;
+    }
+    #send{
+        font-size: 29px;
+        font-weight: 500;
+    }
+    h1{
+        margin-top: 100px;
+    }
+
+}
